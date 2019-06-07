@@ -9,24 +9,27 @@
 	{
 		"id": "Next"
 	},
-	{"id": "InBond"}],
+	{
+	  "id": "InBond"
+	  
+	}],
 	
 	"Type":[
 	{
 		"id": "Stock Move",
 		"Desc": "Moving stock from one location"
-	}
+	},
 	{
 		"id": "Removing Stock",
 		"Desc": "Removing stock from system, give reason in description"
-	}
+	},
 	{
 		"id": "SQL Change",
 		"Desc": "Changes made to SQL code"
 	}],
-	
 	"Status":[
 	{"id": 1, "Desc": "Approved"},
 	{"id": 2, "Desc": "Pending"},
 	{"id": 3, "Desc": "Denied"}
+	]
 }
